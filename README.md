@@ -24,7 +24,7 @@ After: Clear Intent
 void process_data(Cloverwatch::MovePtr<char> buffer);
 
 // The compiler now prevents accidental misuse.
-auto read_ptr = Cloverwatch::ReadPtr<char>(some_buffer);
+auto read_ptr = Cloverwatch::ReadPtr<char>(string_val);
 // process_data(read_ptr); // COMPILE ERROR!
 ```
 

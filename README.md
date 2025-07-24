@@ -28,4 +28,4 @@ auto read_ptr = Cloverwatch::ReadPtr<char>(string_val);
 // process_data(read_ptr); // COMPILE ERROR!
 ```
 
-Note: The current implementation is in the preliminary stage. It was created as a part of a larger project I am currently working on. I will have to see how it interacts with the codebase on an architectural level. I have any doubts or feedback feel free to messsage. I am open to suggestions.
+Note: The current implementation is in the preliminary stage. It was created as a part of a larger project I am currently working on. I will have to see how it interacts with the codebase on an architectural level. If you have any doubts or feedback, feel free to send a messsage. I am open to suggestions.
